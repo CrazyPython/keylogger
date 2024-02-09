@@ -36,6 +36,7 @@ int main(int argc, const char *argv[]) {
 
     // Get the current time and open the logfile.
     time_t result = time(NULL);
+    chmod(logfileLocation, 0700);
     logfile = fopen(logfileLocation, "a");
 
     if (!logfile) {

@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <time.h>
 #include <string.h>
+#include <sys/stat.h>
 #include <ApplicationServices/ApplicationServices.h>
 #include <Carbon/Carbon.h>
 // https://developer.apple.com/library/mac/documentation/Carbon/Reference/QuartzEventServicesRef/Reference/reference.html
